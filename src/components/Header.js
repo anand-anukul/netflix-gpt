@@ -7,6 +7,7 @@ import { addUser, removeUser } from "../utils/userSlice";
 import { ToggleGptSearchView } from "../utils/gptSlice";
 import { SUPPORTED_LANGUAGES } from "../utils/constants";
 import { ChangeLanguage } from "../utils/langSlice";
+import { FaSignOutAlt } from "react-icons/fa";
 
 const Header = () => {
 
@@ -63,7 +64,7 @@ const Header = () => {
           <button className="bg-purple-800 text-white px-4 mx-4 my-2
            rounded-lg" onClick={handleGptButton}>{showGptSearch ? "Home" : "GPT sreach"}</button>
           <button className="font-bold text-white" onClick={handleSignOut}>
-            (Sign out)
+          <FaSignOutAlt className="mr-8 ml-8 "/>Sign out
           </button>
         </div>
       )}

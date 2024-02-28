@@ -12,4 +12,4 @@ export const BG_URL="https://assets.nflxext.com/ffe/siteui/vlv3/c0b69670-89a3-48
 
 export const SUPPORTED_LANGUAGES=[{identifier:"en",name:"English"},{identifier:"hindi",name:"Hindi"},{identifier:"spanish",name:"Spanish"}]
 
-export const OPENAI_KEY="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"
+export const OPENAI_KEY="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"
